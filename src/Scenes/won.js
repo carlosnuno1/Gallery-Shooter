@@ -9,7 +9,7 @@ class youWon extends Phaser.Scene{
 
     preload(){
 
-        document.getElementById('description').innerHTML = '<h2>Game Over</h2>';
+        document.getElementById('description').innerHTML = '<h2>You Won</h2>';
 
         
     }
@@ -19,7 +19,7 @@ class youWon extends Phaser.Scene{
 
         this.spaceKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
 
-        this.scoreText = this.add.text(300, 300, '  You Won\n Good Job', { fontFamily: 'Georgia, "Goudy Bookletter 1911", Times, serif' });
+        this.scoreText = this.add.text(300, 300, '  You Won!!\n Good Job!!!', { fontFamily: 'Georgia, "Goudy Bookletter 1911", Times, serif' });
 
     }
 
