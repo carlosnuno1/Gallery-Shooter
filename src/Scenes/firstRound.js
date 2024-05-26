@@ -92,6 +92,7 @@ class firstRound extends Phaser.Scene{
         this.enemyBulletCooldown--;
 
         if (this.rkey.isDown){
+            console.log("restart");
             this.scene.restart();
         }
 
